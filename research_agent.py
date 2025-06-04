@@ -7,7 +7,6 @@ from langchain.agents import create_tool_calling_agent, AgentExecutor
 from tools import search_tool, wiki_tool, save_tool
 load_dotenv()
 
-
 class ResearchResponse(BaseModel):
     topic : str
     summary : str
